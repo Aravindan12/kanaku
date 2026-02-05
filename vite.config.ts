@@ -10,7 +10,7 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['icon.svg'],
+      includeAssets: ['icon-notebook.svg'],
       manifest: {
         name: 'KanakuBook',
         short_name: 'KanakuBook',
@@ -23,7 +23,7 @@ export default defineConfig({
         start_url: '/',
         icons: [
           {
-            src: 'icon.svg',
+            src: 'icon-notebook.svg',
             sizes: 'any',
             type: 'image/svg+xml',
             purpose: 'any maskable'
